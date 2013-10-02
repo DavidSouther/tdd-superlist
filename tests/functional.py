@@ -24,7 +24,21 @@ class NewVisitorTest(unittest.TestCase):
 		# (Edith's hobby is tying fly-fishing lures).
 
 		# When she hits enter, the page updates, and now the page lists
-		# "1: Buy Peacock Feathers" as an item in a to-do list.
+		# "1: Buy peacock feathers" as an item in a to-do list.
+
+		# There is still a text box inviting her to add another item.
+		# She enters "Use peacock feathers to make a fly".
+		# (Edith is very methodical)
+
+		# The page updates again, and now show both items on her list.
+
+		# Edith wonders whether the site will remember her list.
+		# Then she notices that the site has generated a unique URL for her --
+		# there is some explanatory text to that effect.
+
+		# She visits that url, and her list is still there.
+
+		# Satisfied, she goes back to sleep.
 
 		self.fail("Finish the feature!")
 
